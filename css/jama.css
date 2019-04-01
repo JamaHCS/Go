@@ -1,0 +1,19 @@
+#logo{
+  width: auto;
+  height: 50px;
+  padding: 0px;
+}
+.ancho
+{
+  width: 100%;
+}
+
+footer a{
+  color: #4a4a4a
+}
+
+.separador{
+  width: 100%;
+  border-top: 2px solid;
+  border-color: rgb(198, 198, 198)
+}
