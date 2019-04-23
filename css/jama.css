@@ -19,7 +19,7 @@ footer a{
 }
 
 .lista-footer{
-text-shadow: 0px 0px 10px black;
+text-shadow: 0px 0px 4px black;
 }
 
 .bl{
@@ -108,3 +108,18 @@ overflow:hidden;
 
 
 /* Hola */
+.separador-nav{
+  border-bottom: 1px solid;
+  border-color: rgb(198, 198, 198);
+}
+nav .btn-outline-success{
+  border-color: #ee303d;
+  color: white;
+}
+
+nav .btn-outline-success:hover{
+  color: #ee303d;
+  background-color: #ee303d;
+  border-color: #ee303d;
+
+}

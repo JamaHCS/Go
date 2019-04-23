@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/jama.css">
+  <title>Go México</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top separador-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+      <div class="row ancho">
+        <div class="col-4">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Empieza proyecto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="mx-auto text-center">
+            <a href="index.html">
+              <img src="assets/ico/iso.png" alt="Go México.png" id="logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-right pr-0">
+              <li class="nav-item active">
+                <button type="button" class="nav-link btn btn-outline-success mr-2 disabled" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                  Iniciar sesión
+                </button>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control" type="search" placeholder="Busqueda" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- content -->
+  <main id="eco-registro" class="pt-3">
+    <div class="container">
+      <div class="row">
+        <form class="form-inline" autocomplete="on">
+          <div class="col-12 col-md-6 form-group mx-auto" id="col-card-registro-1">
+            <div class="card mx-auto my-2">
+              <div class="card-body pb-2">
+                <h5 class="card-title">Datos de usuario</h5>
+              </div>
+              <ul class="list-group list-group-flush" id="datos-usuario">
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Nombre(s)</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: Juan" aria-label="Nombre(s)" aria-describedby="addon-wrapping" required autocomplete="given-name" autofocus required>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Primer apellido</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: Perez" aria-label="Apellido" aria-describedby="addon-wrapping" required autocomplete="family-name" required>
+                  </div>
+
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Segundo apellido</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: Rodriguez" aria-label="Apellido" aria-describedby="addon-wrapping" required autocomplete="family-name" required>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Telefono</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: 773 111 1111" aria-label="Número telefónico" aria-describedby="addon-wrapping" required autocomplete="tel" required>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Correo electrónico</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ej: juan69@gmail.com" aria-label="Correo electrónico" aria-describedby="addon-wrapping" required autocomplete="email" required>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card mx-auto my-2">
+              <div class="card-body pb-2">
+                <h5 class="card-title">Datos de la cuenta</h5>
+              </div>
+              <ul class="list-group list-group-flush" id="datos-cuenta">
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Nombre de usuario</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: user_name" aria-label="username" aria-describedby="addon-wrapping" required autocomplete="username" required>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Contraseña</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="********" aria-label="Password" aria-describedby="addon-wrapping" required autocomplete="new-password" required>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 form-group mx-auto" id="col-card-registro-2">
+
+            <div class="card mx-auto my-2">
+              <div class="card-body pb-2">
+                <h5 class="card-title">Dirección</h5>
+              </div>
+              <ul class="list-group list-group-flush" id="datos-direccion">
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Estado</span>
+                    </div>
+                    <select id="inputState" class="form-control" aria-label="Estado de residencia" required>
+                      <option>Hidalgo</option>
+                      <option>Aguascalientes</option>
+                      <option>Baja California</option>
+                      <option>Baja California Sur</option>
+                      <option>Campeche</option>
+                      <option>Chiapas</option>
+                      <option>Chihuahua</option>
+                      <option>Ciudad de México</option>
+                      <option>Coahuila</option>
+                      <option>Colima</option>
+                      <option>Durango</option>
+                      <option>Guanajuato</option>
+                      <option>Guerrero</option>
+                      <option>Jalisco</option>
+                      <option>Estado de México</option>
+                      <option>Michoacán</option>
+                      <option>Morelos</option>
+                      <option>Nayarit</option>
+                      <option>Nuevo León</option>
+                      <option>Oaxaca</option>
+                      <option>Aguascalientes</option>
+                      <option>Puebla</option>
+                      <option>Querétaro</option>
+                      <option>Quintana Roo</option>
+                      <option>San Luis Potosí</option>
+                      <option>Sinaloa</option>
+                      <option>Sonora</option>
+                      <option>Tabasco</option>
+                      <option>Tamaulipas</option>
+                      <option>Tlaxcala</option>
+                      <option>Veracruz</option>
+                      <option>Yucatán</option>
+                      <option>Zacatecas</option>
+                    </select>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Municipio</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: Pachuca" aria-label="Municipio de residencia" aria-describedby="addon-wrapping" required autocomplete="address-level2" required>
+                  </div>
+
+                </li>
+
+                <li class="list-group-item">
+                  <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping">Calle</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ejemplo: Avenida de las flores, #15" aria-label="Calle de residencia" aria-describedby="addon-wrapping" required autocomplete="street-address" required>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card mx-auto my-2">
+              <div class="card-body text-center">
+                <a href="index.html" class="btn btn-outline-danger">Cancelar</a> <!-- este debe de ser un boton -->
+                <a href="eco-perfil.html"> <button type="submit" class="btn btn-primary ml-0">Aceptar</button></a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <!-- /content -->
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-light">
+      <div class="separador"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="row pt-3 pb-2 lista-footer">
+              Acerca de nosotros
+            </div>
+            <div class="row">
+              <a href="#">Acerca de nosotros</a>
+            </div>
+            <div class="row">
+              <a href="#">Nuestra acta</a>
+            </div>
+            <div class="row">
+              <a href="#">Estadísticas</a>
+            </div>
+            <div class="row">
+              <a href="#">Prensa</a>
+            </div>
+            <div class="row pb-2">
+              <a href="#">Empleos</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row pt-3 pb-2 lista-footer">
+              Atención al cliente
+            </div>
+            <div class="row">
+              <a href="#">centro de ayuda</a>
+            </div>
+            <div class="row">
+              <a href="#">Nuestras reglas</a>
+            </div>
+            <div class="row">
+              <a href="#">Manual del creador</a>
+            </div>
+            <div class="row">
+              <a href="#">Benefactores</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row pt-3 pb-2 lista-footer">
+              Hola
+            </div>
+            <div class="row">
+              <a href="#">Blog de Go!</a>
+            </div>
+            <div class="row">
+              <a href="#">Blog de ingeniería</a>
+            </div>
+            <div class="row">
+              <a href="#">
+                Boletines
+              </a>
+            </div>
+            <div class="row">
+              <a href="#">Investigación</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separador"></div>
+      <div class="container">
+        <div class="row pb-3 pt-2">
+          <div class="col-md-2 col-sm-12"><a href="#"><small>Confianza y seguridad</small></a></div>
+          <div class="col-md-2 col-sm-12"><a href="#"><small>Términos de uso</small></a></div>
+          <div class="col-md-2 col-sm-12"><a href="#"><small>Política de privacidad</small></a></div>
+          <div class="col-md-2 col-sm-12"><a href="#"><small>Política de cookies</small></a></div>
+          <div class="col-md-4 col-sm-12"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  </html>
