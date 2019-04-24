@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/jama.css">
+  <title>Go México</title>
+</head>
+
+<body>
+
+  <!-- Modal/inicio de sesión -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Iniciar sesión</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form autocomplete="on">
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Usuario:</label>
+              <input type="text" class="form-control" id="user" maxlength="20" autocomplete="username" placeholder="username" required>
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Contraseña:</label>
+              <input type="password" class="form-control" id="password" maxlength="20" autocomplete="current-password" placeholder="********" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-group list-group-flus pl-0">
+                  <a href="#">
+                    <li class="list-group-item py-0 pl-0 my-1 pl-2">
+                      <small>
+                        Olvidé mi contraseña
+                      </small>
+                    </li>
+                  </a>
+                  <a href="registro.html">
+                    <li class="list-group-item py-0 pl-0 my-1 pl-2">
+                      <small>
+                        Registrarse
+                      </small>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+              <div class="col-6 text-right align-items-center mt-auto mb-auto p-0">
+                <button type="button" class="btn btn-danger mt-1" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary mt-1 ml-0">Aceptar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal/inicio de sesión -->
+
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top separador-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+      <div class="row ancho">
+        <div class="col-4">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Empieza proyecto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="mx-auto text-center">
+            <a href="index.html">
+              <img src="assets/ico/iso.png" alt="Go México.png" id="logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-right pr-0">
+              <li class="nav-item active">
+                <button type="button" class="nav-link btn btn-outline-success mr-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                  Iniciar sesión
+                </button>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control" type="search" placeholder="Busqueda" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="intro">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-2"><img src="txt/ico/ico-safir.png" alt="Safir-ico" class="ico"></div>
+        <div class="col-10">
+          <h3 class="ital">Financía las oportunidades del alumnado</h3>
+          <p class="h33">
+            Queremos brindarles la oportunidad de ganar dinero y financiación a un alumno.
+            Cuestión de suerte, tal vez; azar, probablemente;
+            pero la esperanza que se brinda con la minima oportunidad puede hacer la diferencia para motivar a un alumno o ayudar a un foraneo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="separador"></div>
+  </section>
+  <section id="contribuye" class="my-4">
+    <div class="container py-2">
+      <div class="row">
+        <div class="col-7 safir-img">
+          <!-- <img src="txt/safir-2.jpg" alt="Safir"> -->
+        </div>
+        <div class="col-5">
+          <div class="row">
+            <div class="col-12 text-center my-1">
+              <span class="">$500.00</span>
+            </div>
+            <div class="col-12 text-center my-1">
+              <p class=""><small>Contribuido de: $800.00</small></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center my-1">
+              <span class="">2</span>
+            </div>
+            <div class="col-12 text-center my-1">
+              <p class=""><small>Patrocinadores</small></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center my-1">
+              <span class="">15</span>
+            </div>
+            <div class="col-12 text-center my-1">
+              <p class=""><small>Días para finalizar</small></p>
+            </div>
+          </div>
+          <div class="row">
+            <button class="btn btn-success btn-lg btn-block btn-donar ml-3">Contribuir</button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="separador"></div>
+
+  <section id="second">
+    <div class="container">
+      <div class="row py-2">
+        <div class="row">
+          <h2>1- SOCIOS CLAVE </h2>
+          <p>La papelería escolar.  </p>
+        </div>
+        <div class="row">
+          <h2>2- ACTIVIDADES CLAVE. </h2>
+          <p>Crear una página en facebook, para ahí informar cuándo serán nuestras próximas rifas.</p>
+          En la misma página anunciar al ganador.
+        </div>
+        <div class="row">
+          <h2>3-RECURSOS CLAVE. </h2>
+          <p>Realizar nuestros boletos de rifa. </p>
+        </div>
+        <div class="row">
+          <h2>4- PROPUESTAS DE VALOR. </h2>
+          <p>Motivaremos a los estudiantes de la preparatoria para que compren un boleto de rifa, pues tendrán posibilidades de ganar dinero.   </p>
+        </div>
+        <div class="row">
+          <h2>5- RELACIÓN CON CLIENTES </h2>
+          <p>Tendremos una forma fácil de contactarnos con ellos para que así estén enterados si su número de boleto resulta ganador. </p>
+          Los clientes frecuentes tendrán descuentos.
+        </div>
+        <div class="row">
+          <h2>6- CANALES</h2>
+          <p>Los boletos se rifa serán ofrecidos en la preparatoria.</p>
+          Se creará una página de facebook.
+        </div>
+        <div class="row">
+          <h2>7- SEGMENTOS DE CLIENTES. </h2>
+          <p>Le estaremos ofreciendo boletos a los estudiantes de la preparatoria. </p>
+        </div>
+        <div class="row">
+          <h2>8- ESTRUCTURA DE COSTOS. </h2>
+          <p>Impresión de los boletos. </p>
+        </div>
+        <div class="row">
+          <h2>9- FUENTE DE INGRESOS. </h2>
+          <p>Nuestro ingreso correspondería al 30% de la venta
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-light">
+    <div class="separador"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row pt-3 pb-2 lista-footer">
+            Acerca de nosotros
+          </div>
+          <div class="row">
+            <a href="#">Acerca de nosotros</a>
+          </div>
+          <div class="row">
+            <a href="#">Nuestra acta</a>
+          </div>
+          <div class="row">
+            <a href="#">Estadísticas</a>
+          </div>
+          <div class="row">
+            <a href="#">Prensa</a>
+          </div>
+          <div class="row pb-2">
+            <a href="#">Empleos</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row pt-3 pb-2 lista-footer">
+            Atención al cliente
+          </div>
+          <div class="row">
+            <a href="#">centro de ayuda</a>
+          </div>
+          <div class="row">
+            <a href="#">Nuestras reglas</a>
+          </div>
+          <div class="row">
+            <a href="#">Manual del creador</a>
+          </div>
+          <div class="row">
+            <a href="#">Benefactores</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row pt-3 pb-2 lista-footer">
+            Hola
+          </div>
+          <div class="row">
+            <a href="#">Blog de Go!</a>
+          </div>
+          <div class="row">
+            <a href="#">Blog de ingeniería</a>
+          </div>
+          <div class="row">
+            <a href="#">
+              Boletines
+            </a>
+          </div>
+          <div class="row">
+            <a href="#">Investigación</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="separador"></div>
+    <div class="container">
+      <div class="row pb-3 pt-2">
+        <div class="col-md-2 col-sm-12"><a href="#"><small>Confianza y seguridad</small></a></div>
+        <div class="col-md-2 col-sm-12"><a href="#"><small>Términos de uso</small></a></div>
+        <div class="col-md-2 col-sm-12"><a href="#"><small>Política de privacidad</small></a></div>
+        <div class="col-md-2 col-sm-12"><a href="#"><small>Política de cookies</small></a></div>
+        <div class="col-md-4 col-sm-12"></div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

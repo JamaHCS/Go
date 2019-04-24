@@ -123,3 +123,78 @@ nav .btn-outline-success:hover{
   border-color: #ee303d;
 
 }
+
+/* .safir-cover{
+  background-image: url(/../txt/safir.jpg);
+  height: 100px;
+  background-size: cover;
+  display: inline-block;
+} */
+
+.proyecto-destacado{
+  max-height: 300px;
+
+}
+
+
+.img-s{
+background-image: url(../txt/safir-1.jpg);
+background-size: cover;
+background-position: center;
+/* min-width: 200px */
+}
+.img-h{
+background-image: url(../txt/health-1.jpg);
+background-size: cover;
+background-position: center;
+/* min-width: 200px */
+}
+.img-d{
+background-image: url(../txt/dulcilum-1.jpg);
+background-size: cover;
+background-position: center;
+/* min-width: 200px */
+}
+.img-a{
+background-image: url(../txt/atenas-1.jpg);
+background-size: cover;
+background-position: center;
+/* min-width: 200px */
+}
+
+
+.ico{
+  height: 100px;
+  width: auto;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
+.ital{
+  font-style: italic;
+  text-shadow: 0px 0px 1px black
+}
+
+.safir-img{
+  background-image: url(../txt/safir-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+#contribuye span{
+  color: #037362;
+  font-weight: 600;
+  font-size: 32px
+}
+
+.bloque{
+  display: block;
+}
+
+
+.btn-donar{
+  background-color: #037362;
+   
+}
